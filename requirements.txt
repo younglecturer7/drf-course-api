@@ -6,3 +6,4 @@ pillow
 sqlparse
 tzdata
 django-cors-headers
+django-debug-toolbar

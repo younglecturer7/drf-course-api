@@ -13,9 +13,9 @@ def home(request):
 
 
 urlpatterns = [
-
     path('admin/', admin.site.urls),
-    
+    path('', home, name='home'),
+    path('api/', include('api.urls')),
 
 ] + debug_toolbar_urls()  # Include debug toolbar URLs
 

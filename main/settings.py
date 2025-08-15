@@ -38,6 +38,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "debug_toolbar",
+<<<<<<< HEAD
+=======
+    'api',
+    'store',
+    'tags',
+>>>>>>> developer
 ]
 
 MIDDLEWARE = [
@@ -123,7 +129,10 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+<<<<<<< HEAD
 # for django debug toolbar
+=======
+>>>>>>> developer
 INTERNAL_IPS = [
     # ...
     "127.0.0.1",

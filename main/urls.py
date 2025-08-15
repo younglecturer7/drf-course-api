@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 """
 URL configuration for main project.
@@ -31,10 +32,17 @@ def home(request):
     result = x*y
     return render(request, "home.html", {"result" : result})
 
+=======
+
+from django.contrib import admin
+from django.urls import path
+from debug_toolbar.toolbar import debug_toolbar_urls
+>>>>>>> developer
 
 urlpatterns = [
 <<<<<<< HEAD
     path('admin/', admin.site.urls),
+<<<<<<< HEAD
     path('', home),
     path("core/", include("core.urls"))
 ] + debug_toolbar_urls()
@@ -42,3 +50,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
 ]
 >>>>>>> 37c8de4e6d889e676bff40b3af33b47307371d3d
+=======
+] + debug_toolbar_urls()  # Include debug toolbar URLs
+>>>>>>> developer

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import uuid
 from django.db import models
 from django.db.models.functions import Lower, Upper, Length, Concat
@@ -48,3 +49,11 @@ class Restaurant(models.Model):
 
 class Order(models.Model):
     order_id = models.UUIDField(primary_key=True, default=uuid.uuid4)
+=======
+from django.db import models
+
+# Create your models here.
+
+class Core(models.Model):
+    pass
+>>>>>>> 37c8de4e6d889e676bff40b3af33b47307371d3d
